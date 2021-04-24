@@ -8,7 +8,14 @@ This project uses GSM Module (SIM900) with Arduino to switch Relay state by SMS 
 ![alt text](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2017/10/GSM-Arduino-circuit.jpg?resize=828%2C509&quality=100&strip=all&ssl=1)
 
 # Step 2 (Connect Relay with Arduino)
-![alt text](https://osoyoo.com/wp-content/uploads/2017/08/1channel-relay-fritzing-1.jpg)
+Connections are given Below : 
+
+Arduino           Relay Module
++5V                 VCC
+GND                 GND
+PIN2                Signal
+
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNzMklM-UMQDHovuOIuYrjHav37NRg-NfYQ&usqp=CAU)
 
 # Step 3 (Upload Sketch to Arduino)
 Download "sms_call_gate.ino" Sketch from the repository and Upload it to Arduino.
